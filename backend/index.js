@@ -16,6 +16,6 @@ app.get("/", (_req, res) => {
 
 connectToMongo().then(() => {
   app.listen(port, () => {
-    console.log(`Server listening on http://localhost:${port}`);
+    console.log(`StreamPad backend Server listening on http://localhost:${port}`);
   });
 });
