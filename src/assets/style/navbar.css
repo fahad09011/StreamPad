@@ -1,8 +1,8 @@
-.navbar{
-    background-color: #474444;
-}
+
  .navri{
     justify-content: space-between;
 
  }
- 
+ #root{
+    background-color: #5d5d5d;
+ }
